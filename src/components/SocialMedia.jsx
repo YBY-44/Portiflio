@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsInstagram } from 'react-icons/bs';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-import { AiOutlineWechat } from 'react-icons/ai'; 
+// import { AiOutlineWechat } from 'react-icons/ai'; 
 const SocialMedia = () => {
   return (
     <div className='app__social'>
