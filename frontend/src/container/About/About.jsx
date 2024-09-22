@@ -29,6 +29,9 @@ const About = () => {
       </h2>
       <div className='app__profiles'>
         {about_me.map((about, index) => {
+          if(!about.imgUrl){
+            return null;
+          }
           return (
             <motion.div
               whileInView={{ opacity: 1 }}
